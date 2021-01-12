@@ -1,0 +1,53 @@
+I"<h2 id="超链接默认在本标签页打开">超链接：默认在本标签页打开</h2>
+
+<p>Markdown语法里的几种超链接方式都是默认直接在本标签页打开的，如下：</p>
+
+<h3 id="方法一">方法一</h3>
+
+<p>方括号后加小括号，小括号里写链接地址。</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">[example](http://yinping4256.github.io)</code></pre></figure>
+
+<p>效果如下：</p>
+
+<p class="notice"><a href="http://yinping4256.github.io">example</a></p>
+
+<hr />
+
+<h3 id="方法二">方法二</h3>
+
+<p>如果无所谓链接的名字的话，可以直接使用尖括号把链接括起来。</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">&lt;http://yinping4256.github.io&gt;</code></pre></figure>
+
+<p>效果如下：</p>
+
+<p class="notice"><a href="http://yinping4256.github.io">http://yinping4256.github.io</a></p>
+
+<hr />
+
+<h2 id="让超链接在新窗口新标签页中打开">让超链接在新窗口(新标签页)中打开</h2>
+
+<p>我看到有些朋友在他们的博客中提到，要在什么{YOUR_OCTOPRESS}\source_includes\custom\head.html后面添加一堆代码。</p>
+
+<p>其实远没有这么复杂！！</p>
+
+<p>最简单的办法是，只需要在我上面两种方法后面添加<code class="language-plaintext highlighter-rouge">{:target="_blank"}</code>.</p>
+
+<h3 id="改进后的方法一">改进后的方法一</h3>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">[example](http://yinping4256.github.io){:target="_blank"}</code></pre></figure>
+
+<p>效果如下：</p>
+
+<p class="notice"><a href="http://yinping4256.github.io" target="_blank">example</a></p>
+
+<h3 id="改进后的方法二">改进后的方法二</h3>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">&lt;http://yinping4256.github.io&gt;{:target="_blank"}</code></pre></figure>
+
+<p>效果如下：</p>
+
+<p class="notice"><a href="http://yinping4256.github.io" target="_blank">http://yinping4256.github.io</a></p>
+
+:ET

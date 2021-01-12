@@ -1,0 +1,20 @@
+I"A<h2 id="two">Two</h2>
+
+<h3 id="simd">SIMD</h3>
+
+<h4 id="are-simd-processors-general-purposes">Are SIMD processors general purposes?</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>No.
+</code></pre></div></div>
+
+<h4 id="shared-data-a-new-storage-class">Shared data (a new storage class)</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Synchronization may be needed when updating shared state.
+</code></pre></div></div>
+
+<h4 id="heap-storage-sometimes-can-be-shared-sometimes-not">Heap storage sometimes can be shared, sometimes not.</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>It depends on whether the variable is global.
+</code></pre></div></div>
+
+:ET

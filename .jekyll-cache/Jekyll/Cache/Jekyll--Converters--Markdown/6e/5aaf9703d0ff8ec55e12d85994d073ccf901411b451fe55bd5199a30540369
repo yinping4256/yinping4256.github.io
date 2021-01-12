@@ -1,0 +1,31 @@
+I"d<p>I have been using UCSD git for programming CSE 160 assignments.</p>
+
+<p>I like using IDEs for programming. Visual studio is my favorite. To save time, I have decided to write down steps I have used to make 
+my visual studio 2013 work well with a third party git, which is UCSD Git in my case. Github is very similar.</p>
+
+<p>In our course, we are given some startup codes in a remote UCSD git repository.</p>
+
+<p>Here is what I have done:</p>
+
+<ol>
+  <li>
+    <p>Locally create a new empty project, without checking the “initial git” option in the wizard.</p>
+  </li>
+  <li>
+    <p>Click <code class="language-plaintext highlighter-rouge">team</code> in the menu, choose “connect to team foundation server”.  This opens a “Team Explorer”. I usually put it on the right side.</p>
+  </li>
+  <li>
+    <p>Look for “Local Git Repositories”. You can see a <code class="language-plaintext highlighter-rouge">clone</code> button right below it. Click it.</p>
+  </li>
+  <li>
+    <p>It prompts you to enter the URL of your repository. Use the “http” address of your repository.</p>
+  </li>
+  <li>
+    <p>Choose the location where you will put your repository. I set it to my project folder. Then click <code class="language-plaintext highlighter-rouge">clone</code>.</p>
+  </li>
+  <li>
+    <p>Finally, mannually add files to current empty project.</p>
+  </li>
+</ol>
+
+:ET

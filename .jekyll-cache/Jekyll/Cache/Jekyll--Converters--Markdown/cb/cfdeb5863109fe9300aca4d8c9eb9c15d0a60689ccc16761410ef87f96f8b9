@@ -1,0 +1,24 @@
+I"�<ul>
+  <li>我是用的是MacTex 2014，不需要把.pdf先转成.eps，直接用</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.5]{hw1pics.pdf}
+\caption{random value from 1 to n}
+\end{figure}</code></pre></figure>
+
+<p>就可以插入图片。</p>
+
+<ul>
+  <li>
+    <p>使用了\usepackage{graphicx}</p>
+  </li>
+  <li>
+    <p>尤其注意文件名不能带有<code class="language-plaintext highlighter-rouge">.</code>， 比如hw1.1.pdf 会不被识别。只能是hw1.pdf。</p>
+  </li>
+  <li>
+    <p>注意finder有没有隐藏文件类型。</p>
+  </li>
+</ul>
+:ET

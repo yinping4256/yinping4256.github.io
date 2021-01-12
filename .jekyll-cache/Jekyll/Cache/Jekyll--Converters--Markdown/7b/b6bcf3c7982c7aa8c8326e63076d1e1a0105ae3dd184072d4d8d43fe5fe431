@@ -1,0 +1,431 @@
+I"10<p class="notice">Definition:<br />
+<strong>Modifers</strong>: a word or group of words that describe, limit, or qualify another word.<br />
+Goal:<br />
+Specific; concise; simple; positive.</p>
+
+<h2 id="motivation">Motivation</h2>
+
+<p>To ensure your readers understand what you intended meaning, you can use the following principles.</p>
+
+<h2 id="p1-use-specific-and-unambiguous-language">P1: Use Specific and Unambiguous Language</h2>
+
+<h3 id="using-specific-language">Using Specific Language</h3>
+
+<p class="notice">Rule: Provide as more details as possible to transform a vague sentence to a specific one.</p>
+
+<p>The details could be “what(exactly it is)”, “which (exact ones)”, “where (the exact location is)”, “when (it will exactly happen)”, and so on.</p>
+
+<blockquote>
+  <p>A computer in <strong>one of the rooms</strong> is not working properly.</p>
+</blockquote>
+
+<p>Provide: where the rooms are; which exact computer is not working; in what way it is not working.</p>
+
+<blockquote>
+  <p>For its mission, the relief organization needs food and supplies.</p>
+</blockquote>
+
+<p>Provide: what the mission is, which exact food/supplies they need.</p>
+
+<blockquote>
+  <p>We must have these frames <strong>soon</strong>, so we can complete the first floor of both buildings on schedule.</p>
+</blockquote>
+
+<p>Provide: a specific time (when) you need the frame. Place the time at the end of the sentence: to complete xxxxx , we must have these frames <strong>by next week</strong>.</p>
+
+<h3 id="using-unambiguous-language">Using Unambiguous Language</h3>
+
+<p>Ambiguity can come from:</p>
+
+<ul>
+  <li>
+    <p>Misplaced modifiers</p>
+  </li>
+  <li>
+    <p>Dangling modifiers</p>
+  </li>
+  <li>
+    <p>Stacked nouns</p>
+  </li>
+  <li>
+    <p>Faulty word choice</p>
+  </li>
+</ul>
+
+<h4 id="misplaced-modifiers">Misplaced Modifiers</h4>
+
+<p class="notice">Rule: Place modifiers as close as possible to the intended referent.</p>
+
+<blockquote>
+  <p>Our manager suggested to the vice president that we register for the class <strong>in San Francisco</strong>.</p>
+</blockquote>
+
+<p>This sentence has three meanings:</p>
+
+<ol>
+  <li>
+    <p>Our manager suggested to the vice president (<em>in San Francisco</em>) …</p>
+  </li>
+  <li>
+    <p>… that we register (<em>in San Francisco</em>) …</p>
+  </li>
+  <li>
+    <p>the class is in San Francisco = … we register for the San Francisco class</p>
+  </li>
+</ol>
+
+<h4 id="dangling-modifers">Dangling Modifers</h4>
+
+<p class="notice">Rule: Identify the real subject of the modifers.</p>
+
+<p>This could be easily identified by most Chinese students because of extensive practice in high school.</p>
+
+<p>It means the modifers (usually a verb-like phrase) reference a wrong subject, that is the verb is executed by a wrong subject.</p>
+
+<blockquote>
+  <p>Trying to put out the fire, the fire extinguisher broke.</p>
+</blockquote>
+
+<p>The subject that was “trying to put out the fire” can’t be “the fire extinguisher”. It must be a person. So the correct sentence could be “Trying to put out the fire, I broke the fire extinguisher. “</p>
+
+<h4 id="stacked-nouns">Stacked Nouns</h4>
+
+<p class="notice">Rule: Whenever possible, avoid using a noun to modify a noun.</p>
+
+<blockquote>
+  <p>The consultant suggested the manager allow time for a <strong>fitness center member evaluation</strong>.</p>
+</blockquote>
+
+<p>This stacked nouns could mean:</p>
+
+<ol>
+  <li>
+    <p><strong>(fitness center member) evaluation</strong>: evaluate the members in a fitness center.</p>
+  </li>
+  <li>
+    <p><strong>(fitness center) (member evaluation)</strong>: it is the members to evaluate the fitness center.</p>
+  </li>
+</ol>
+
+<h4 id="faulty-word-choice">Faulty Word Choice</h4>
+
+<p class="notice">Rule: Choose the word which has less meanings.</p>
+
+<blockquote>
+  <p>We were <strong>held up</strong> at the bank.</p>
+</blockquote>
+
+<p><strong>Held up</strong> means: 1. delayed; 2. robbed.</p>
+
+<blockquote>
+  <p>The students will present Shakespeare’s Hamlet in the school auditorium on Friday at 7:00 P.M. Parents are invited to attend this <strong>tragedy</strong>.</p>
+</blockquote>
+
+<p><strong>Tragedy</strong> means: 1. the <strong>type</strong> of this play; 2. the (bad) quality of the performance;</p>
+
+<hr />
+
+<h2 id="p2-use-only-the-words-your-readers-need">P2: Use only the Words Your Readers Need</h2>
+
+<p>Write concisely without redundant and unnecessary words.</p>
+
+<h3 id="eliminating-redundancy">Eliminating Redundancy</h3>
+
+<p>Redundancy: the words and phraces which repeat the same meaning as other words in the sentence.</p>
+
+<h4 id="redundant-pairs">Redundant Pairs</h4>
+
+<blockquote>
+  <p>Please give our proposal your <strong>thought and consideration</strong>.</p>
+</blockquote>
+
+<p>Correction： Please <strong>consider</strong> our proposal.</p>
+
+<blockquote>
+  <p>Your solution can <strong>help and benefit</strong> the engineering division to better serve our community.</p>
+</blockquote>
+
+<p>Correction： … can **help <s> and benefit</s> ** the engineering division …</p>
+
+<p><strong>Common Redundant Pairs table</strong></p>
+
+<table rules="groups">
+  <tbody>
+    <tr>
+      <td>advice and counsel</td>
+      <td>first and foremost</td>
+    </tr>
+    <tr>
+      <td>agreeable and satisfactory</td>
+      <td>full and complete</td>
+    </tr>
+    <tr>
+      <td>aid and assistance</td>
+      <td>help and benefit</td>
+    </tr>
+    <tr>
+      <td>any and all</td>
+      <td>help and cooperation</td>
+    </tr>
+    <tr>
+      <td>assist and help</td>
+      <td>hope and trust</td>
+    </tr>
+    <tr>
+      <td>basic and fundamental</td>
+      <td>null and void</td>
+    </tr>
+    <tr>
+      <td>due and payable</td>
+      <td>opinion and belief</td>
+    </tr>
+    <tr>
+      <td>each and every</td>
+      <td>prompt and immediate</td>
+    </tr>
+    <tr>
+      <td>fair and equitable</td>
+      <td>thought and consideration</td>
+    </tr>
+    <tr>
+      <td>fair and reasonable</td>
+      <td>true and accurate</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="redundant-modifiers">Redundant Modifiers</h4>
+
+<blockquote>
+  <p><strong>end</strong> result</p>
+</blockquote>
+
+<p>Result must be the end, the <strong>end</strong> is useless here.</p>
+
+<p><strong>Common Redundant Modifiers table</strong></p>
+
+<table rules="groups">
+  <thead>
+    <tr>
+      <th style="text-align: left">Redundant Modifers</th>
+      <th style="text-align: left">Concise Alternatives</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">absolutely essential</td>
+      <td style="text-align: left">cell2</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">absolutely free</td>
+      <td style="text-align: left">cell5</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">anticipate in advance</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">basic fundamentals</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">circle around</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">consensus of opinion</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">continue on</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">decrease down</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">each individual</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="redundant-prepositional-phrases">Redundant Prepositional Phrases</h4>
+
+<blockquote>
+  <p>The rock is pink <strong>in color</strong>, and 61 pounds <strong>in weight</strong>.</p>
+</blockquote>
+
+<p>The bold prepositional phrases could be deleted.</p>
+
+<h3 id="eliminating-unnecessary-words">Eliminating Unnecessary Words</h3>
+
+<h4 id="phrases-that-should-be-replaced">Phrases that should be Replaced</h4>
+
+<blockquote>
+  <p>add table here</p>
+</blockquote>
+
+<h4 id="phrases-that-should-be-deleted">Phrases that should be Deleted</h4>
+
+<blockquote>
+  <p>add table here</p>
+</blockquote>
+
+<hr />
+
+<h2 id="use-simple-words">Use Simple Words</h2>
+
+<p>Rule: Change <strong>fancy</strong> words to <strong>simple, familiar, fewer-syllable</strong> words.</p>
+
+<p>Use simple words help readers gather the information in need as quckly and effortlessly as possible.</p>
+
+<blockquote>
+  <p>add table</p>
+</blockquote>
+
+<hr />
+
+<h2 id="use-positive-language">Use Positive Language</h2>
+
+<blockquote>
+  <p>add table</p>
+</blockquote>
+
+<hr />
+
+<h2 id="use-technical-terminology-consistently-and-appropriately">Use Technical Terminology Consistently and Appropriately</h2>
+
+<p class="notice">Rule: Consistency.</p>
+
+<p>Use the same words to refer to technical concepts. Readers will be confused if you use two terms to refer to the same concept without explicitly telling them that the terms are interchangeable(they may think the two terms are different).</p>
+
+<p class="notice">Rule: Define terminology.</p>
+
+<ol>
+  <li>
+    <p>Use parentheses the first time you use the terminology.</p>
+  </li>
+  <li>
+    <p>Define them in glossary.</p>
+  </li>
+</ol>
+
+<p class="notice">Rule: Expert or general readers.</p>
+
+<p>Use technical terminology for expert readers.</p>
+
+<p>Use nontechnical language whenever possible for other readers with casual or scant knowledge of your field.</p>
+
+<hr />
+
+<h2 id="use-nonsexist-language">Use Nonsexist Language</h2>
+
+<p>Rule:</p>
+<ol class="notice">
+  <li>Use plural nouns</li>
+  <li>Use second-person pronouns: <strong>you</strong> and <strong>your</strong>.</li>
+  <li>mankind -&gt; people or humankind ; man-made -&gt; synthetic.</li>
+  <li>he/she -&gt; he or she.</li>
+</ol>
+
+<p><strong>Nonsexist Alternatives for Sexist Nouns occupations</strong></p>
+
+<blockquote>
+  <p>add table</p>
+</blockquote>
+
+<hr />
+
+<h2 id="consider-you-readers-culture-and-language">Consider You Readers’ Culture and Language</h2>
+
+:ET

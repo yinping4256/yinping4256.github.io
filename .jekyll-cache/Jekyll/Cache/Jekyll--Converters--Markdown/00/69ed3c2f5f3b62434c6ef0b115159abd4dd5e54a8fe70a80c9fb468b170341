@@ -1,0 +1,45 @@
+I"�<p>恢复初始设置后，界面变为亚马逊自带界面，输入法只有系统自带的英文输入法。
+需要按照如下设置调整：</p>
+
+<h4 id="1-预备步骤">1. 预备步骤：</h4>
+
+<p>进入设置settings -&gt; Applications &amp; Parental Controls -&gt; Allow non-Amazon app installation -&gt; App Installation 改成 “on”.</p>
+
+<h4 id="2-用浏览器搜索">2. 用浏览器搜索</h4>
+
+<p>“appchina”（应用汇），“wandoujia”（豌豆荚），或者“coolapk”（酷市场）。并下载安装这几个第三方市场。第一次安装的时候，会弹出一个系统对话框，说“为了安全起见，系统禁止安装第三方软件”. 点击右边的方框</p>
+
+<h4 id="3-安装第三方桌面">3. 安装第三方桌面：</h4>
+
+<p>打开应用汇，或者豌豆荚，搜索”雅虎桌面”（“Yahoo Aviate Launcher”）。并 下载安装。安装后点done.  再按一下home按键，弹出一个对话框要你选择默认的桌面程序，点一下刚刚安装的aviate， 然后点done。
+这个雅虎桌面比之前手机里我安装的dodal 桌面要好，因为这个桌面可以设置壁纸。
+雅虎桌面默认页是带壁纸的那页，下方可以自己添加一些图标，上面是搜索框，搜索框里可以输入联系人、软件名字进行快速查找。雅虎桌面往右划一页，是分类的自动调整的软件，方便你打开最常用的软件。再往右划是“所有程序”。</p>
+
+<h4 id="4-安装第三方输入法">4. 安装第三方输入法：</h4>
+
+<p>去上面提到的三个第三方市场里，下载并安装所需的输入法,比如百度输入法。安装后不需要打开。</p>
+
+<p>下载并安装nookcolor tools, 下载地址（用手机的浏览器打开，并在手机里直接下载）：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>链接: 
+</code></pre></div></div>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">	http://pan.baidu.com/s/1c00DZji
+	</code></pre></figure>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>密码: fj8a
+</code></pre></div></div>
+
+<p>安装好nookcolor tools后，打开，点击 “All Settings” -&gt; “Language &amp; Keyboard”, 勾选上刚刚安装的输入法。返回。点击”Choose Keyboard”, 选择刚刚安装的输入法。
+	返回。设置完毕。</p>
+
+<h4 id="5-同步联系人">5. 同步联系人：</h4>
+
+<p>去第三方市场下载“QQ同步”，打开后用QQ登录。（如果需要从3种设置里选择）选择第一项。等待同步完成。</p>
+
+<h4 id="6-更改手机默认拨号软件">6. 更改手机默认拨号软件：</h4>
+
+<p>去第三方市场下载安装“EX拨号”，非常好用。之后凡是询问默认联系人、拨号的，就选择”EX拨号“。</p>
+
+<h4 id="7-安装其他软件吧">7. 安装其他软件吧。</h4>
+:ET

@@ -1,0 +1,337 @@
+I")<p>本次课讲述了英语句子(clause)的所有类型, 和它们的常见组合。</p>
+
+<p>adjective clause: 形容词性的句子, 即<code class="language-plaintext highlighter-rouge">定语从句</code>.</p>
+
+<hr />
+
+<h2 id="什么是一个英语句子-what-is-a-clause">什么是<strong>一个</strong>英语句子: What is <strong>a</strong> clause?</h2>
+
+<p class="notice"><strong>subject + verb</strong>， 主语+动词(谓语)</p>
+
+<p>其中subject可以是单个，或者2个以上(<code class="language-plaintext highlighter-rouge">compound subject</code>), 也算作<code class="language-plaintext highlighter-rouge">1个</code>clause。</p>
+
+<p class="notice">(subject and subject) + verb</p>
+
+<blockquote>
+  <p>Tom and Jerry went out.</p>
+</blockquote>
+
+<p>verb也可以是单个，或者2个以上(<code class="language-plaintext highlighter-rouge">compound verb</code>), 也算作<code class="language-plaintext highlighter-rouge">1个</code>clause。</p>
+
+<p class="notice">subject + (verb and verb)</p>
+
+<blockquote>
+  <p>They went home and slept.</p>
+</blockquote>
+
+<p>甚至两个以上的subject + 2个以上verb，也算作<code class="language-plaintext highlighter-rouge">1个</code>clause。</p>
+
+<p class="notice">(subject and subject) + (verb and verb)</p>
+
+<blockquote>
+  <p>Tom and Jerry went home and slept.</p>
+</blockquote>
+
+<p>但是，这种类型不是<code class="language-plaintext highlighter-rouge">1</code>个clause.</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">**WRONG**: Sub1 verb1 + sub2 verb2</code></pre></figure>
+
+<blockquote>
+  <p>Tom went home and Jerry went to bed.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="单个的clause只有两种类型">单个的Clause只有两种类型</h2>
+
+<h3 id="independent-clause">Independent Clause</h3>
+
+<p>可以独立成句。</p>
+
+<blockquote>
+  <p>The man said. <br />
+Giraffes are tall.</p>
+</blockquote>
+
+<h3 id="dependent-clause">Dependent Clause</h3>
+
+<ol>
+  <li>
+    <p>不能独立成句</p>
+  </li>
+  <li>
+    <p>包含：<strong>subordinating conjunction</strong>(辅助性的连词)或者<strong>relative pronoun</strong>(关系代词)</p>
+  </li>
+</ol>
+
+<h4 id="subordinating-conjunction"><strong>subordinating conjunction</strong></h4>
+
+<table>
+  <tbody>
+    <tr>
+      <td>After</td>
+      <td>Even though</td>
+      <td>Unless</td>
+    </tr>
+    <tr>
+      <td>Although</td>
+      <td>If</td>
+      <td>Until</td>
+    </tr>
+    <tr>
+      <td>As/As if</td>
+      <td>Now that</td>
+      <td>What</td>
+    </tr>
+    <tr>
+      <td>As long as</td>
+      <td>Once</td>
+      <td>When</td>
+    </tr>
+    <tr>
+      <td>As soon as</td>
+      <td>Since</td>
+      <td>Whenever</td>
+    </tr>
+    <tr>
+      <td>Because</td>
+      <td>So that</td>
+      <td>Wherever</td>
+    </tr>
+    <tr>
+      <td>Before</td>
+      <td>That</td>
+      <td>Whether</td>
+    </tr>
+    <tr>
+      <td>Even if</td>
+      <td>Though</td>
+      <td>While</td>
+    </tr>
+    <tr>
+      <td>(more…)</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="多个clauses的组合-sentence的类型">多个Clauses的组合: Sentence的类型</h2>
+
+<h3 id="simple-sentence-简单句">Simple Sentence, 简单句</h3>
+
+<p class="notice">Only ONE <strong>Independent</strong> Clause + some Modifiers</p>
+
+<blockquote>
+  <p>My red cell phone broke the day before yesterday.</p>
+</blockquote>
+
+<ul>
+  <li><strong>subject</strong>: cell phone</li>
+  <li><strong>verb</strong>: broke</li>
+  <li><strong>modifiers</strong>: my, red, the day before yesterday</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">这种简单句的语气很Strong，尤其是连续几句都是简单句. 
+如果通篇都是简单句，那它就好比通篇所有字母都大写一样！！</code></pre></figure>
+
+<h3 id="complex-sentence-复杂句">Complex Sentence, 复杂句</h3>
+
+<p class="notice">Only ONE <strong>Independent</strong> Clause + ONE(or more) <strong>Dependent</strong> clause + some Modifiers</p>
+
+<blockquote>
+  <p>Although he was late, the teacher was not angry.</p>
+</blockquote>
+
+<ul>
+  <li><strong>dependent clause</strong>: Although he was late</li>
+  <li><strong>independent clause</strong>: the teacher was not angry.</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">Complex sentence中, **independent clause**表达的意思比**dependent clause**的意思更重要。</code></pre></figure>
+
+<h4 id="complex复杂句的逗号使用">Complex复杂句的逗号使用</h4>
+
+<blockquote>
+  <p>My cell phone broke when I dropped it on the ground.</p>
+</blockquote>
+
+<blockquote>
+  <p>When I dropped it on the ground, my cell phone broke.</p>
+</blockquote>
+
+<h3 id="compound-sentence-复合句">Compound Sentence, 复合句</h3>
+
+<p class="notice"><strong>TWO or More Independent Clauses</strong> + modifiers.</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">Compound句子里每个Independent clauses的权重是一样的。一共有**三种**Compound Sentences.</code></pre></figure>
+
+<h4 id="type-1">TYPE #1</h4>
+
+<p class="notice">Independent Clause, <strong>Coordinator</strong> + Independent Clause.</p>
+
+<p><strong>Coordinators</strong>: 也叫FANBOYS，连接两个”equal”的independent clauses.</p>
+
+<h5 id="coordinating-conjunction"><strong>Coordinating Conjunction</strong></h5>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>F</strong> - For</td>
+    </tr>
+    <tr>
+      <td><strong>A</strong> - And</td>
+    </tr>
+    <tr>
+      <td><strong>N</strong> - Nor</td>
+    </tr>
+    <tr>
+      <td><strong>B</strong> - But</td>
+    </tr>
+    <tr>
+      <td><strong>O</strong> - Or</td>
+    </tr>
+    <tr>
+      <td><strong>Y</strong> - Yet</td>
+    </tr>
+    <tr>
+      <td><strong>S</strong> - So</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p>nor = neither?<br />
+I don’t know this, neither/nor does he.</p>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">yet = but?
+——"yet" indicates "surprise".</code></pre></figure>
+
+<blockquote>
+  <p>Writing is challenging yet rewarding.</p>
+</blockquote>
+
+<p>这是一个simple sentence, 而且是由一个subject+一个verb组成的最简单的clause(第一类)。</p>
+
+<h5 id="practice">practice</h5>
+
+<p>Punctuate: “Will you come over or let me go to your office?”</p>
+
+<p>My answer: “Will you come over, or let me go to your office?”</p>
+
+<p>It is a question version of <strong>IC, coordinator IC</strong> sentence.</p>
+
+<h4 id="type-2">TYPE #2</h4>
+
+<p class="notice">Independent Clause; <strong>Conjunctive Adverb</strong>(连接副词) + Independent Clause.</p>
+
+<blockquote>
+  <p>My cell phone broke yesterday; therefore, I had to buy a new one.</p>
+</blockquote>
+
+<h5 id="conjunctive-adverbs连接副词"><strong>Conjunctive Adverbs</strong>(连接副词)</h5>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Additionally/Also</td>
+      <td>Instead</td>
+    </tr>
+    <tr>
+      <td>Besides</td>
+      <td>Likewise</td>
+    </tr>
+    <tr>
+      <td>Consequently</td>
+      <td>Meanwhile</td>
+    </tr>
+    <tr>
+      <td>Conversely</td>
+      <td>Moreover</td>
+    </tr>
+    <tr>
+      <td>Furthermore</td>
+      <td>Nevertheless</td>
+    </tr>
+    <tr>
+      <td>However</td>
+      <td>Nonetheless</td>
+    </tr>
+    <tr>
+      <td>In addition</td>
+      <td>Similarly</td>
+    </tr>
+    <tr>
+      <td>In contrast</td>
+      <td>Therefore</td>
+    </tr>
+    <tr>
+      <td>(more…)</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">学会使用：
+http://corpus.byu.edu/coca/
+勾选：academic
+look for pattern.
+
+比如"however", 可以找到如下patterns:
+
+XXX. However, XXX
+XXX, however, XXXX
+XXXXX, however.
+XXXX; however, XXXX
+
+I like sports cars. However, I cannot afford them.
+I like sports cars. I, however, cannot afford them.
+I like sports cars. I cannot, however, afford them.
+I like sports cars; however, I cannot afford them.(更紧凑，其实比较少见）
+
+网页中# means a new line.</code></pre></figure>
+
+<h4 id="type-3">TYPE #3</h4>
+
+<p class="notice">Independent Clause; Independent Clause.</p>
+
+<blockquote>
+  <p>My cell phone broke the day after I bought it; his cell phone had broken within the first week, as well.</p>
+</blockquote>
+
+<p>分号<strong>;</strong>等价于 <code class="language-plaintext highlighter-rouge">, and</code>.</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">分号连接的这种复合句只有在两个clauses的意思非常相关的时候才行。</code></pre></figure>
+
+<h3 id="compound-complex-sentence">Compound-Complex Sentence</h3>
+
+<p class="notice"><strong>TWO and More Independent Clauses &amp; ONE or More Dependent Clauses</strong> + some Modifiers</p>
+
+<blockquote>
+  <p>Although my cell phone broke the day before yesterday, I bought a new screen, and I was able to fix it.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="多样的句子类型为何重要">多样的句子类型为何重要</h2>
+
+<p>因为只用一种类型的sentence会很BORING.</p>
+
+<ul>
+  <li>Too many simple sentences sound “choppy.”</li>
+  <li>Too many compound sentences are boring when the conjunctions are all the same.</li>
+  <li>Too many of the same type of complex sentences can make an annoying pattern!</li>
+  <li>Too many long sentences makes it difficult to find the emphasis.</li>
+</ul>
+
+<h3 id="language-is-music">Language is Music…</h3>
+
+<blockquote>
+  <p>This sentence has five words. Here are five more words. Five-word sentences are fine. But several together become monotonous. Listen to what is happening. The writing is getting boring. The sound of it drones. It’s like a stuck record. The ear demands some variety. Now listen. I vary the sentence length, and I create music. Music. The writing sings. It has a pleasant rhythm, a lilt, a harmony. I use short sentences. And I use sentences of medium length. And sometimes when I am certain the reader is rested, I will engage him with a sentence of considerable length, a sentence that burns with energy and builds with all the impetus of a crescendo, the roll of the drums, the crash of the cymbals–sounds that say listen to this, it is important.<br />
+So write with a combination of short, medium, and long sentences. Create a sound that pleases the reader’s ear. Don’t just write words. Write music.</p>
+</blockquote>
+
+:ET

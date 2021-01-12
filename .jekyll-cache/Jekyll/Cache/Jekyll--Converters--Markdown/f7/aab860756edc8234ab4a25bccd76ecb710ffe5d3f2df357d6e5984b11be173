@@ -1,0 +1,8 @@
+I"�<h4 id="举例">举例</h4>
+<div class="language-matlab highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">temp</span> <span class="o">=</span> <span class="nb">randi</span><span class="p">([</span><span class="mi">0</span> <span class="mi">1</span><span class="p">],</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">);</span>
+<span class="n">matrix</span> <span class="o">=</span> <span class="nb">tril</span><span class="p">(</span><span class="n">temp</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">+</span><span class="nb">triu</span><span class="p">(</span><span class="n">temp</span><span class="o">'</span><span class="p">,</span><span class="mi">0</span><span class="p">);</span>
+<span class="n">matrix</span><span class="o">=</span><span class="n">matrix</span><span class="o">-</span><span class="nb">diag</span><span class="p">(</span><span class="nb">diag</span><span class="p">(</span><span class="n">matrix</span><span class="p">))</span>
+</code></pre></div></div>
+
+<p>生成的是3*3的随机矩阵</p>
+:ET

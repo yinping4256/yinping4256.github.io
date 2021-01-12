@@ -1,0 +1,21 @@
+I"'<p>打开terminal导航到项目所在根目录，运行：</p>
+
+<p class="notice">bundle exec jekyll serve –watch</p>
+
+<p>加watch是可以让server监视post的修改而即时编译新的网页。</p>
+
+<p>如果没有错误的话，会提示：</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.</code></pre></figure>
+
+<p>这时候就可以打开浏览器，输入地址：<a href="http://127.0.0.1:4000/">http://127.0.0.1:4000/</a> 或者 <a href="http://localhost:4000">http://localhost:4000</a>.</p>
+
+<hr />
+
+<p>创建文章的话使用命令：</p>
+
+<p class="notice">octopress new post “post title” –dir <strong>category</strong></p>
+
+<p>category就是文章目录的名字。</p>
+:ET

@@ -1,0 +1,73 @@
+I"�<p>一般来说，要让Jekyll上的网站显示中文更美观，更方便自己撰写内容，至少需要做下面几件事。</p>
+
+<h2 id="取消段首缩进">取消段首缩进</h2>
+
+<p>首先找到</p>
+
+<p class="notice">_sass/variables.scss</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="err">$</span><span class="nt">doc-font-size</span><span class="o">:</span> <span class="err">16</span><span class="o">;</span>
+<span class="err">$</span><span class="nt">doc-line-height</span><span class="o">:</span> <span class="err">26</span><span class="o">;</span>
+<span class="err">$</span><span class="nt">paragraph-indent</span><span class="o">:</span> <span class="nt">true</span> <span class="o">!</span><span class="nt">default</span><span class="o">;</span>
+<span class="err">$</span><span class="nt">base-font</span><span class="o">:</span> <span class="s2">'PT Serif'</span><span class="o">,</span> <span class="nt">serif</span><span class="o">;</span>
+<span class="err">$</span><span class="nt">heading-font</span><span class="o">:</span> <span class="s2">'PT Sans Narrow'</span><span class="o">,</span> <span class="nt">sans-serif</span><span class="o">;</span>
+<span class="err">$</span><span class="nt">code-font</span><span class="o">:</span> <span class="nt">Monaco</span><span class="o">,</span> <span class="s1">"Courier New"</span><span class="o">,</span> <span class="s1">"DejaVu Sans Mono"</span><span class="o">,</span> <span class="s1">"Bitstream Vera Sans Mono"</span><span class="o">,</span> <span class="nt">monospace</span><span class="o">;</span>
+<span class="err">$</span><span class="nt">alt-font</span><span class="o">:</span> <span class="err">$</span><span class="nt">base-font</span><span class="o">;</span></code></pre></figure>
+
+<p>把上面的<code class="language-plaintext highlighter-rouge">paragraph-indent</code> 如果是<code class="language-plaintext highlighter-rouge">true</code> 就改成<strong>false</strong>.</p>
+
+<h2 id="修改字体">修改字体</h2>
+
+<p>主要就是改base-font. 这里默认字体是：<code class="language-plaintext highlighter-rouge">PT Serif</code>， 而且是衬线体serif，非常不适合用作中文文章的正文字体。</p>
+
+<p>大家可以参考这篇文章来选择自己中意的字体</p>
+
+<p><a href="http://www.ruanyifeng.com/blog/2014/07/chinese_fonts.html" target="_blank">中文字体网页开发指南</a></p>
+
+<h2 id="换行方法">换行方法</h2>
+
+<p>取消段首缩进后，每一新段落都会顶格开始，并且两段之间会留有比较大的段落间距。比如：</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">段落一。
+
+段落二。</code></pre></figure>
+
+<p>效果如下：</p>
+
+<hr />
+
+<p>段落一。</p>
+
+<p>段落二。</p>
+
+<hr />
+
+<p>如果我确实想要两个段落之间不要有段落间距，应该怎么办呢？</p>
+
+<p>如果只是单纯地这样写(去掉两段之间的空行）：</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">段落一。
+段落二。</code></pre></figure>
+
+<p>效果如下：</p>
+
+<hr />
+
+<p>段落一。
+段落二。</p>
+
+<hr />
+
+<p>所以，应该使用markdown的一个语法：换行。你只需要在上一个例子中的<code class="language-plaintext highlighter-rouge">段落一。</code>后面多打2个以上的空格，再打一个回车，然后写<code class="language-plaintext highlighter-rouge">段落二</code>, 那么就会出现理想的效果。</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">段落一。()()
+段落二。</code></pre></figure>
+
+<p>效果如下：</p>
+
+<hr />
+
+<p>段落一。<br />
+段落二。</p>
+
+:ET

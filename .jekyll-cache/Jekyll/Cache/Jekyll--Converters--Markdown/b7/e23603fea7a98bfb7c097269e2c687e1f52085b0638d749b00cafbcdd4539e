@@ -1,0 +1,258 @@
+I"_,<p>本文分为两个部分。首先我会比较mp3和aac，看他们在同等文件大小的情况下谁的音质更好，换言之，性价比最高。然后我会讨论如何选择合适的压缩比特率。</p>
+
+<hr />
+
+<h2 id="mp3还是aac">mp3还是aac</h2>
+
+<p>一直以来听说同样比特率下aac比mp3的音质要高得多，但同时也看到另一些人的说法认为音质差异和编码器有关。有人认为不能用mp3里较差的编码器和aac里较好的编码器(itunes里的qaac)相比较，而应该使用mp3的lame编码器。今天本人秉着科学求是的精神想彻底比较一下aac(itunes的qaac)和mp3(lame)的音质差异。</p>
+
+<h3 id="准备工作">准备工作</h3>
+
+<ul>
+  <li>
+    <p>GoldWave 软件，用来观察声谱图<a href="https://www.goldwave.com/release.php" target="_blank">https://www.goldwave.com/release.php</a></p>
+  </li>
+  <li>
+    <p>Foobar，lame、aac encoder包，参考此文: <a href="http://localhost:4001/cn/how%20to%20use%20foobar%20to%20convert%20mp3/" target="_blank">利用foobar将无损转mp3/aac教程</a></p>
+  </li>
+  <li>
+    <p>一个无损音频文件：我选择的是李宗盛的”山丘”。链接：http://pan.baidu.com/s/1bnjtIft 密码：numl</p>
+  </li>
+</ul>
+
+<p>需要说明的是，最新的lame版本3.99.5是2012年2月28日更新的(<a href="http://sourceforge.net/projects/lame/files/lame/3.99/" target="_blank">http://sourceforge.net/projects/lame/files/lame/3.99/</a>)；而qaac最新版2.55是2015年9月23日更新(<a href="http://www.videohelp.com/software/qaac" target="_blank">http://www.videohelp.com/software/qaac</a>). 基本上预测qaac会好于lame。</p>
+
+<h3 id="经过">经过</h3>
+
+<p>我将无损的“山丘”用lame3.99.5压制成4个参数分别为130 kbps VBR, 165 kbps VBR, 225 kbps VBR和320 kbps CBR的文件。</p>
+
+<p>用qaac2.55压制成参数分别为128 kbps VBR, 160 kbps VBR, 224 kbps VBR 和 320 kbps CBR 的四个文件。</p>
+
+<p>以上所提比特率参数均为Convert时提供的默认参数配置。我尽量选择了默认参数较为接近的四组。需要说明的是，用默认VBR参数压制后的文件实际比特率并不一定等于参数提供的标称比特率。</p>
+
+<p>将上面操作得到的8个文件和无损文件，一共9个，分别放到GoldWave里观察声谱图。</p>
+
+<p>在9个文件分别播放到2:43处时，截图声谱图。全部收集好之后比较声谱图的最高可达频率，作为音质的反映。</p>
+
+<p>同时还要比较四组文件的大小。</p>
+
+<p>最后空间性价比由“最高可达频率/文件大小”决定。</p>
+
+<h3 id="数据">数据</h3>
+
+<h4 id="最高可达频率">最高可达频率</h4>
+
+<figure class="half">
+  <a href="http://http://localhost:4001/images/kbps/130lame.JPG"><img src="http://http://localhost:4001/images/kbps/130lame.JPG" /></a>
+  <a href="http://http://localhost:4001/images/kbps/128aac.JPG"><img src="http://http://localhost:4001/images/kbps/128aac.JPG" /></a>
+  <figcaption>130lame vs 128aac</figcaption>
+</figure>
+
+<figure class="half">
+  <a href="http://http://localhost:4001/images/kbps/130lame.JPG"><img src="http://http://localhost:4001/images/kbps/130lame.JPG" /></a>
+  <a href="http://http://localhost:4001/images/kbps/128aac.JPG"><img src="http://http://localhost:4001/images/kbps/128aac.JPG" /></a>
+  <figcaption>165lame vs 160aac</figcaption>
+</figure>
+
+<figure class="half">
+  <a href="http://http://localhost:4001/images/kbps/130lame.JPG"><img src="http://http://localhost:4001/images/kbps/130lame.JPG" /></a>
+  <a href="http://http://localhost:4001/images/kbps/128aac.JPG"><img src="http://http://localhost:4001/images/kbps/128aac.JPG" /></a>
+  <figcaption>225lame vs 224aac</figcaption>
+</figure>
+
+<figure class="half">
+  <a href="http://http://localhost:4001/images/kbps/130lame.JPG"><img src="http://http://localhost:4001/images/kbps/130lame.JPG" /></a>
+  <a href="http://http://localhost:4001/images/kbps/128aac.JPG"><img src="http://http://localhost:4001/images/kbps/128aac.JPG" /></a>
+  <figcaption>320lame vs 320aac</figcaption>
+</figure>
+
+<p>要得到上面这些图，需要在GoldWave默认Window设置里把Control窗口设置为Vertical。再在Control左侧窗口右键，选择spectragram。再右键，选择properties-&gt;show axis.</p>
+
+<h4 id="图表">图表</h4>
+
+<table rules="groups">
+  <thead>
+    <tr>
+      <th style="text-align: center">编码器</th>
+      <th style="text-align: center">标称比特率/kbps</th>
+      <th style="text-align: center">实际比特率/kbps</th>
+      <th style="text-align: center">文件大小/MB</th>
+      <th style="text-align: center">最高可达频率</th>
+      <th style="text-align: center">空间性价比</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">lame</td>
+      <td style="text-align: center">130</td>
+      <td style="text-align: center">125</td>
+      <td style="text-align: center">6.1</td>
+      <td style="text-align: center">16.7</td>
+      <td style="text-align: center">2.74</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">qaac</td>
+      <td style="text-align: center">128</td>
+      <td style="text-align: center">122</td>
+      <td style="text-align: center">6.05</td>
+      <td style="text-align: center">18.5</td>
+      <td style="text-align: center">3.06</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: center">lame</td>
+      <td style="text-align: center">165</td>
+      <td style="text-align: center">147</td>
+      <td style="text-align: center">7.15</td>
+      <td style="text-align: center">17.5</td>
+      <td style="text-align: center">2.45</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">qaac</td>
+      <td style="text-align: center">160</td>
+      <td style="text-align: center">156</td>
+      <td style="text-align: center">7.65</td>
+      <td style="text-align: center">19.2</td>
+      <td style="text-align: center">2.51</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: center">lame</td>
+      <td style="text-align: center">225</td>
+      <td style="text-align: center">225</td>
+      <td style="text-align: center">10.9</td>
+      <td style="text-align: center">19.5</td>
+      <td style="text-align: center">1.79</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">qaac</td>
+      <td style="text-align: center">224</td>
+      <td style="text-align: center">224</td>
+      <td style="text-align: center">10.9</td>
+      <td style="text-align: center">20.5</td>
+      <td style="text-align: center">1.88</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: center">lame</td>
+      <td style="text-align: center">320</td>
+      <td style="text-align: center">320</td>
+      <td style="text-align: center">15.5</td>
+      <td style="text-align: center">20.2</td>
+      <td style="text-align: center">1.30</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">qaac</td>
+      <td style="text-align: center">320</td>
+      <td style="text-align: center">320</td>
+      <td style="text-align: center">15.6</td>
+      <td style="text-align: center">21.5</td>
+      <td style="text-align: center">1.38</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: center">无损</td>
+      <td style="text-align: center">859</td>
+      <td style="text-align: center">859</td>
+      <td style="text-align: center">41.6</td>
+      <td style="text-align: center">21.8</td>
+      <td style="text-align: center">0.52</td>
+    </tr>
+  </tbody>
+</table>
+
+<figure>
+  <a href="http://http://localhost:4001/images/kbps/1.png"><img src="http://http://localhost:4001/images/kbps/1.png" /></a>
+  <figcaption>文件大小比较</figcaption>
+</figure>
+
+<figure>
+  <a href="http://http://localhost:4001/images/kbps/2.png"><img src="http://http://localhost:4001/images/kbps/2.png" /></a>
+  <figcaption>最高频率比较</figcaption>
+</figure>
+
+<figure>
+  <a href="http://http://localhost:4001/images/kbps/3.png"><img src="http://http://localhost:4001/images/kbps/3.png" /></a>
+  <figcaption>空间性价比比较</figcaption>
+</figure>
+
+<h3 id="结论">结论</h3>
+
+<ul>
+  <li>
+    <p>同等比特率下，我们发现aac最高可达频率高于mp3，aac确实比mp3音质更好。</p>
+  </li>
+  <li>
+    <p>无论是aac还是mp3，都在较低比特率（128kbps）比更高的比特率（165, 225, 320kbps)有更高的空间性价比。空间性价比随着比特率增加而递减。</p>
+  </li>
+  <li>
+    <p>无论是aac还是mp3，在128kbps时最高比特率都已经超过16kHz. aac甚至超过18kHz. 因此，在不需要更高频率的时候，128kbps的文件因占用空间最小而最值得选择。</p>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="压缩比特率的选择以下均为aac">压缩比特率的选择(以下均为aac)</h2>
+
+<p>强烈建议大家决定比特率的时候使用ABX测试(<a href="https://en.wikipedia.org/wiki/ABX_test" target="_blank">https://en.wikipedia.org/wiki/ABX_test</a>)，而不要一味追求高音质而选择非常高的比特率。</p>
+
+<p>毕竟，如果自己耳朵都听不出差别的话，就没有必要在移动场合还用特别高的比特率听歌了。</p>
+
+<p>从上面图片中我们可以看到，225kbps的文件就已经超过10MB了。这其实并不十分经济。</p>
+
+<p>一个简单的ABX测试的办法是：</p>
+
+<ul>
+  <li>
+    <p>先准备好同一首歌曲的无损版，和另一个与之对比的版本，如128kbps</p>
+  </li>
+  <li>
+    <p>分别将他们拖到Foobar的播放列表中（每种只出现1次）</p>
+  </li>
+  <li>
+    <p>在播放列表中全选复制，再粘贴数次（越多越好）</p>
+  </li>
+  <li>
+    <p>闭上眼，按住键盘的下键不放，过随机一段时间松手。直接播放该曲，不要去看其他内容。这相当于随机选取了2个版本中的一个。</p>
+  </li>
+  <li>
+    <p>听完后回答“该曲目是否为无损？”</p>
+  </li>
+  <li>
+    <p>如果回答正确，则“正确”次数+1， 如果回答错误，则“错误”次数+1</p>
+  </li>
+  <li>
+    <p>重复以上多次，越多越好（100次以上？）。</p>
+  </li>
+  <li>
+    <p>若“正确”和“错误”次数比例接近1:1，则说明自己无法区分他们。</p>
+  </li>
+  <li>
+    <p>当然，“正确”次数应该达到超过50%的多少，看你自己是否能接受而定。</p>
+  </li>
+</ul>
+
+<p>我个人测试的时候只对比了无损和128kbps。使用的是Westone W40 耳机，电脑foobar播放，未用功放。结果表明，我并不能有效区分他们。</p>
+
+<p>我甚至尝试了96kbps，似乎也无法区分。</p>
+
+<p>我想这个网站可以解释我的情况：</p>
+
+<p class="notice"><a href="http://www.ultrasonic-ringtones.com/">http://www.ultrasonic-ringtones.com/</a></p>
+
+<p>我在它上面测试了我能听到的最高频率为15.8kHz. 所以，其实更高比特率对我来说是空白。</p>
+
+<p>但是为了保险期间，我还是最终选择了128kbps。</p>
+
+<hr />
+
+<h2 id="补充">补充</h2>
+
+<p>我在360云盘里分享了两首曲子的无损和128kbps（aac压制）的版本，感兴趣的朋友可以下载听一下是否自己能听出差异，做一个ABX测试。</p>
+
+<p class="notice"><a href="http://yunpan.cn/cF5PzazFZXneS" target="_blank">http://yunpan.cn/cF5PzazFZXneS</a> （提取码：22df）</p>
+:ET

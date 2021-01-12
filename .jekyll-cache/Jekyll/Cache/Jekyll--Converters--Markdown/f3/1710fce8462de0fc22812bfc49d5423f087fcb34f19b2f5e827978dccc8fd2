@@ -1,0 +1,257 @@
+I"�)<p>这篇文章列举了markdown的写法。
+更多请参考：</p>
+
+<p class="notice"><a href="http://kramdown.gettalong.org/quickref.html" target="_blank">http://kramdown.gettalong.org/quickref.html</a> <br />
+<a href="http://www.ituring.com.cn/article/775" target="_blank">http://www.ituring.com.cn/article/775</a><br />
+<a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet</a><br />
+<a href="http://scriptogr.am/archives/post/markdownii" target="_blank">http://scriptogr.am/archives/post/markdownii</a></p>
+
+<hr />
+
+<h2 id="注释">注释</h2>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text"> comment %}
+这是注释
+ endcomment %}</code></pre></figure>
+
+<hr />
+
+<h2 id="换行">换行</h2>
+<p>打两个空格再回车</p>
+
+<hr />
+
+<h2 id="标题">标题</h2>
+
+<h1 id="标题1">标题1</h1>
+
+<h2 id="标题2">标题2</h2>
+
+<h3 id="标题3">标题3</h3>
+
+<h4 id="标题4">标题4</h4>
+
+<h5 id="标题5">标题5</h5>
+
+<h6 id="标题6">标题6</h6>
+
+<hr />
+
+<h2 id="highlight">highlight</h2>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text"># heading1
+
+## heading2
+
+...
+
+###### heading6</code></pre></figure>
+
+<hr />
+
+<h2 id="段落">段落</h2>
+
+<h3 id="加粗bold"><strong>加粗</strong>,<strong>bold</strong></h3>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text"> **This is strong**.  **bold**</code></pre></figure>
+
+<h3 id="斜体字-italic"><em>斜体字</em> <em>italic</em></h3>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">*This is emphasized* *italic*</code></pre></figure>
+
+<h3 id="强调文字-emphasis"><code class="language-plaintext highlighter-rouge">强调文字</code> <code class="language-plaintext highlighter-rouge">emphasis</code></h3>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">`{: .notice}` `emphasis`</code></pre></figure>
+
+<h3 id="段落右边插入图片">段落右边插入图片</h3>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">![图像超链接](http://localhost:4001/images/bio-photo-2.jpg)
+{: .image-pull-right}</code></pre></figure>
+
+<p class="image-pull-right"><img src="http://localhost:4001/images/bio-photo-2.jpg" alt="图像超链接" /></p>
+
+<h3 id="上标">上标</h3>
+<p>这段话出自[^1]</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">这段话出自[^1]</code></pre></figure>
+
+<p>文章结尾可以引用此标：
+[^1]: <a href="http://www.joke.com/">小平语录</a></p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">[^1]: [小平语录](http://www.joke.com/)</code></pre></figure>
+
+<hr />
+
+<h2 id="引用文字">引用文字</h2>
+
+<blockquote>
+  <p>To be or not to be; this is a problem. 引用自莎士比亚</p>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">&gt; To be or not to be; this is a problem. 引用自莎士比亚</code></pre></figure>
+
+<hr />
+
+<h2 id="列表">列表</h2>
+
+<h3 id="有序列举">有序列举</h3>
+<p>直接使用1. 2. 等。</p>
+
+<ol>
+  <li>Item one
+    <ol>
+      <li>sub item one</li>
+      <li>sub item two</li>
+      <li>sub item three</li>
+    </ol>
+  </li>
+  <li>Item two</li>
+</ol>
+
+<h3 id="无序列表">无序列表</h3>
+
+<ul>
+  <li>第一项</li>
+  <li>第二项</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">* 第一项
+* 第二项</code></pre></figure>
+
+<hr />
+
+<h2 id="表格">表格</h2>
+
+<figure>
+  <a href="/images/demonstrate_table.JPG"><img src="/images/demonstrate_table.JPG" /></a>
+  <figcaption>the code for this table</figcaption>
+</figure>
+
+<table rules="groups">
+  <thead>
+    <tr>
+      <th style="text-align: left">Header1</th>
+      <th style="text-align: center">Header2</th>
+      <th style="text-align: right">Header3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">cell1</td>
+      <td style="text-align: center">cell2</td>
+      <td style="text-align: right">cell3</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">cell4</td>
+      <td style="text-align: center">cell5</td>
+      <td style="text-align: right">cell6</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">cell1</td>
+      <td style="text-align: center">cell2</td>
+      <td style="text-align: right">cell3</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">cell4</td>
+      <td style="text-align: center">cell5</td>
+      <td style="text-align: right">cell6</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td style="text-align: left">Foot1</td>
+      <td style="text-align: center">Foot2</td>
+      <td style="text-align: right">Foot3</td>
+    </tr>
+  </tfoot>
+</table>
+
+<hr />
+
+<h2 id="引用代码">引用代码</h2>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nf">#container</span> <span class="p">{</span>
+  <span class="nl">float</span><span class="p">:</span> <span class="nb">left</span><span class="p">;</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="m">-240px</span> <span class="m">0</span> <span class="m">0</span><span class="p">;</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<hr />
+
+<h2 id="按钮">按钮</h2>
+
+<p>使用 <code class="language-plaintext highlighter-rouge">.btn</code> class.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"btn btn-success"</span><span class="nt">&gt;</span>Success Button<span class="nt">&lt;/a&gt;</span></code></pre></figure>
+
+<div><a href="#" class="btn">Primary Button</a></div>
+<div><a href="#" class="btn btn-success">Success Button</a></div>
+<div><a href="#" class="btn btn-warning">Warning Button</a></div>
+<div><a href="#" class="btn btn-danger">Danger Button</a></div>
+<div><a href="#" class="btn btn-info">Info Button</a></div>
+
+<hr />
+
+<h2 id="注意">“注意”</h2>
+
+<p>用一个方框表示注意</p>
+
+<p class="notice"><strong>Watch out!</strong> 把 <code class="language-plaintext highlighter-rouge">{: .notice}</code> 添加到段落后面，可以强调.</p>
+
+<hr />
+
+<h2 id="插入图片或者视频">插入图片或者视频</h2>
+
+<h4 id="单个">单个</h4>
+<figure>
+  <a href="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg"><img src="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg" /></a>
+  <figcaption><a href="http://www.flickr.com/photos/80901381@N04/7758832526/" title="Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr">Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption>
+</figure>
+
+<p>Flickr 上的图片。</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;figure&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg"</span><span class="nt">&gt;&lt;img</span> <span class="na">src=</span><span class="s">"http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg"</span><span class="nt">&gt;&lt;/a&gt;</span>
+  <span class="nt">&lt;figcaption&gt;&lt;a</span> <span class="na">href=</span><span class="s">"http://www.flickr.com/photos/80901381@N04/7758832526/"</span> <span class="na">title=</span><span class="s">"Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr"</span><span class="nt">&gt;</span>Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr<span class="nt">&lt;/a&gt;</span>.<span class="nt">&lt;/figcaption&gt;</span>
+<span class="nt">&lt;/figure&gt;</span></code></pre></figure>
+
+<h4 id="两个并列图片">两个并列图片</h4>
+
+<p>使用 <code class="language-plaintext highlighter-rouge">half</code> class 可以让两个图片并排放，公用一个标题。</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;figure</span> <span class="na">class=</span><span class="s">"half"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/images/image-filename-1-large.jpg"</span><span class="nt">&gt;&lt;img</span> <span class="na">src=</span><span class="s">"/images/image-filename-1.jpg"</span><span class="nt">&gt;&lt;/a&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/images/image-filename-2-large.jpg"</span><span class="nt">&gt;&lt;img</span> <span class="na">src=</span><span class="s">"/images/image-filename-2.jpg"</span><span class="nt">&gt;&lt;/a&gt;</span>
+    <span class="nt">&lt;figcaption&gt;</span>Caption describing these two images.<span class="nt">&lt;/figcaption&gt;</span>
+<span class="nt">&lt;/figure&gt;</span></code></pre></figure>
+
+<p>效果如下：</p>
+
+<figure class="half">
+  <a href="http://placehold.it/1200x600.JPG"><img src="http://placehold.it/600x300.jpg" /></a>
+  <a href="http://placehold.it/1200x600.jpeg"><img src="http://placehold.it/600x300.jpg" /></a>
+  <figcaption>Two images.</figcaption>
+</figure>
+
+<h4 id="三个图片">三个图片</h4>
+
+<p>使用 <code class="language-plaintext highlighter-rouge">third</code> class 可以让三个图片并排放，公用一个标题。</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;figure</span> <span class="na">class=</span><span class="s">"third"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/images/image-filename-1.jpg"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/images/image-filename-2.jpg"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/images/image-filename-3.jpg"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;figcaption&gt;</span>Caption describing these three images.<span class="nt">&lt;/figcaption&gt;</span>
+<span class="nt">&lt;/figure&gt;</span></code></pre></figure>
+
+<p>效果如下：</p>
+
+<figure class="third">
+  <img src="http://placehold.it/600x300.jpg" />
+  <img src="http://placehold.it/600x300.jpg" />
+  <img src="http://placehold.it/600x300.jpg" />
+  <figcaption>Three images.</figcaption>
+</figure>
+:ET

@@ -1,0 +1,19 @@
+I"�<p>Opera的体验在Windows，Mac，Linux上都一样，鼠标手势也完全相同。</p>
+
+<p>不像Mac上的Chrome，鼠标手势还得设置一下某个东西。</p>
+
+<ol>
+  <li>设置 click左键+click右键 为 “打开下一个标签页”:
+ 在 <code class="language-plaintext highlighter-rouge">首选项-高级-快捷键-鼠标</code> 下 点“编辑”， 寻找：<code class="language-plaintext highlighter-rouge">flipForward</code>, 改成：switch to next Page,
+<code class="language-plaintext highlighter-rouge">flipBack</code> -&gt; switch to previous page.</li>
+  <li>设置超级拖拽：在opera：config里搜索“drag”，将Enable Drag设为255，同时启用“后台打开dragged page”。但是只是打开，不能搜索选中的文字</li>
+  <li>设置-高级-标签，勾选“在当前标签页后面打开新标签”</li>
+  <li>下载这些插件：
+    <ol>
+      <li>Autopage</li>
+      <li>Advanced page killer</li>
+      <li>Adblock</li>
+    </ol>
+  </li>
+</ol>
+:ET
