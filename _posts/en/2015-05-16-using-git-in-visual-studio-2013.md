@@ -4,7 +4,7 @@ title: "Using Git in Visual Studio 2013 in CSE 160 UCSD"
 last_modified_at:
 categories: en
 excerpt:
-tags: [tech]
+tags: [技术, English]
 date: 2015-05-16T00:16:55-07:00
 ---
 In CSE 160 I was forced to use git.ucsd.edu to submit my codes. The initial codes were given to run in Bang. However, debugging multithreading in linux is frustrating. So, I made the codes compatible with Visual Studio 2013. 

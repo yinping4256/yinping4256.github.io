@@ -2,9 +2,9 @@
 layout: single
 toc: true
 toc_sticky: true
-title: "Surface Book 使用体验(持续更新,11/14/2015)"
+title: "Surface Book 使用体验"
 excerpt:
-last_modified_at:
+last_modified_at: 2015-11-14
 categories: cn
 excerpt:
 tags: [技术]

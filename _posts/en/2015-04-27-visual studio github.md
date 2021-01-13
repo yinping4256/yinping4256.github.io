@@ -3,7 +3,7 @@ layout: single
 title: Let visual studio work with github
 excerpt: ""
 last_modified_at: 2015-04-27
-tags: [tech]
+tags: [技术, English]
 category: en
 ---
 I have been using UCSD git for programming CSE 160 assignments.

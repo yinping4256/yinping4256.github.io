@@ -7,7 +7,7 @@ excerpt:
 last_modified_at:
 categories: cn
 excerpt:
-tags: [技术,生活]
+tags: [生活]
 date: 2015-09-19T23:41:56-07:00
 ---
 

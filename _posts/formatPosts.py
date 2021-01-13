@@ -32,8 +32,8 @@ if __name__ == "__main__":
                             index_to_be_deleted.append(index)
                             toc_sticky = True
                             print('toc:', new_name)
-                        if r'http://{{ site.url }}' in line:
-                            write_data[index] = line.replace(r'http://{{ site.url }}', r'{{ site.url }}')
+                        if 'tags: \n' in line:
+                            print('empty tag: ', new_name)
                     #print(index_to_be_deleted)
                     for index in sorted(index_to_be_deleted, reverse = True):
                         #print('delete: ', write_data[index])

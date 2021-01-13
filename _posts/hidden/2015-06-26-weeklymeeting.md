@@ -5,6 +5,7 @@ excerpt:
 last_modified_at: 2015-06-26
 tags: [tech]
 category: en
+published: false
 ---
 Professor Lin told us two interesting ideas he got in Sigmetrics. 
 

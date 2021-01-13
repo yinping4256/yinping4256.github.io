@@ -4,7 +4,7 @@ title: "CSE160 Assignment 3: Parallel Gaussian Elimination"
 last_modified_at:
 categories: en
 excerpt:
-tags: [tech]
+tags: [技术, English]
 date: 2015-05-16T01:02:24-07:00
 ---
 The assignment description is here: 

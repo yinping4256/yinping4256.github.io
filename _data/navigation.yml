@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "按年分类"
-    url: /year-archive/
+  #- title: "按年分类"
+  #  url: /year-archive/
 
-  - title: "标签"
+  - title: "所有文章"
     url: /tags/
 
-  - title: "About"
+  - title: "关于我"
     url: /about/
 
   # - title: "Sample Collections"
