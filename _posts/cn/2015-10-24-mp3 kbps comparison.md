@@ -51,26 +51,26 @@ date: 2015-10-24T14:20:33-07:00
 #### 最高可达频率
 
 <figure class="half">
-  <a href="http://{{ site.url }}/images/kbps/130lame.JPG"><img src="http://{{ site.url }}/images/kbps/130lame.JPG"></a>
-  <a href="http://{{ site.url }}/images/kbps/128aac.JPG"><img src="http://{{ site.url }}/images/kbps/128aac.JPG"></a>
+  <a href="{{ site.url }}/images/kbps/130lame.JPG"><img src="{{ site.url }}/images/kbps/130lame.JPG"></a>
+  <a href="{{ site.url }}/images/kbps/128aac.JPG"><img src="{{ site.url }}/images/kbps/128aac.JPG"></a>
   <figcaption>130lame vs 128aac</figcaption>
 </figure>
 
 <figure class="half">
-  <a href="http://{{ site.url }}/images/kbps/130lame.JPG"><img src="http://{{ site.url }}/images/kbps/130lame.JPG"></a>
-  <a href="http://{{ site.url }}/images/kbps/128aac.JPG"><img src="http://{{ site.url }}/images/kbps/128aac.JPG"></a>
+  <a href="{{ site.url }}/images/kbps/130lame.JPG"><img src="{{ site.url }}/images/kbps/130lame.JPG"></a>
+  <a href="{{ site.url }}/images/kbps/128aac.JPG"><img src="{{ site.url }}/images/kbps/128aac.JPG"></a>
   <figcaption>165lame vs 160aac</figcaption>
 </figure>
 
 <figure class="half">
-  <a href="http://{{ site.url }}/images/kbps/130lame.JPG"><img src="http://{{ site.url }}/images/kbps/130lame.JPG"></a>
-  <a href="http://{{ site.url }}/images/kbps/128aac.JPG"><img src="http://{{ site.url }}/images/kbps/128aac.JPG"></a>
+  <a href="{{ site.url }}/images/kbps/130lame.JPG"><img src="{{ site.url }}/images/kbps/130lame.JPG"></a>
+  <a href="{{ site.url }}/images/kbps/128aac.JPG"><img src="{{ site.url }}/images/kbps/128aac.JPG"></a>
   <figcaption>225lame vs 224aac</figcaption>
 </figure>
 
 <figure class="half">
-  <a href="http://{{ site.url }}/images/kbps/130lame.JPG"><img src="http://{{ site.url }}/images/kbps/130lame.JPG"></a>
-  <a href="http://{{ site.url }}/images/kbps/128aac.JPG"><img src="http://{{ site.url }}/images/kbps/128aac.JPG"></a>
+  <a href="{{ site.url }}/images/kbps/130lame.JPG"><img src="{{ site.url }}/images/kbps/130lame.JPG"></a>
+  <a href="{{ site.url }}/images/kbps/128aac.JPG"><img src="{{ site.url }}/images/kbps/128aac.JPG"></a>
   <figcaption>320lame vs 320aac</figcaption>
 </figure>
 
@@ -96,17 +96,17 @@ date: 2015-10-24T14:20:33-07:00
 {: rules="groups"}
 
 <figure>
-  <a href="http://{{ site.url }}/images/kbps/1.png"><img src="http://{{ site.url }}/images/kbps/1.png"></a>
+  <a href="{{ site.url }}/images/kbps/1.png"><img src="{{ site.url }}/images/kbps/1.png"></a>
   <figcaption>文件大小比较</figcaption>
 </figure>
 
 <figure>
-  <a href="http://{{ site.url }}/images/kbps/2.png"><img src="http://{{ site.url }}/images/kbps/2.png"></a>
+  <a href="{{ site.url }}/images/kbps/2.png"><img src="{{ site.url }}/images/kbps/2.png"></a>
   <figcaption>最高频率比较</figcaption>
 </figure>
 
 <figure>
-  <a href="http://{{ site.url }}/images/kbps/3.png"><img src="http://{{ site.url }}/images/kbps/3.png"></a>
+  <a href="{{ site.url }}/images/kbps/3.png"><img src="{{ site.url }}/images/kbps/3.png"></a>
   <figcaption>空间性价比比较</figcaption>
 </figure>
 

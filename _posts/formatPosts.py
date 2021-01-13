@@ -22,8 +22,6 @@ if __name__ == "__main__":
                             index_to_be_deleted.append(index)
                         if line.startswith('image:'):
                             index_to_be_deleted.append(index)
-                        if line.startswith('toc: true'):
-                        	print('toc: ', new_name)
                         if 'feature:' in line:
                             index_to_be_deleted.append(index)
                         if 'credit:' in line:
@@ -34,6 +32,8 @@ if __name__ == "__main__":
                             index_to_be_deleted.append(index)
                             toc_sticky = True
                             print('toc:', new_name)
+                        if r'http://{{ site.url }}' in line:
+                            write_data[index] = line.replace(r'http://{{ site.url }}', r'{{ site.url }}')
                     #print(index_to_be_deleted)
                     for index in sorted(index_to_be_deleted, reverse = True):
                         #print('delete: ', write_data[index])
