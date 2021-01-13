@@ -11,7 +11,6 @@ tags: [技术]
 date: 2015-10-29T13:39:07-07:00
 ---
 
-
 之前我因为Surface Pro 3从路人彻底变成微软黑。
 
 当时，如果有人问我该不该入Surface Pro 3，或者问SP3和macbook air选哪个，我都会强烈建议不要买SP3. 原因详见我另一篇文章：[Surface Pro 3使用体验]({{ site.url }}/cn/surface-pro-3/){:target="_blank"}.
@@ -29,7 +28,7 @@ date: 2015-10-29T13:39:07-07:00
 配置是顶配：i7, 512GB SSD, 16GB 内存, 有NVDIA独显。
 
 <figure>
-  <a href="http://{{ site.url }}/images/surfacebook/1.JPG"><img src="http://{{ site.url }}/images/surfacebook/1.JPG"></a>
+  <a href="{{ site.url }}/images/surfacebook/1.JPG"><img src="{{ site.url }}/images/surfacebook/1.JPG"></a>
   <figcaption>配置</figcaption>
 </figure>
 
@@ -52,7 +51,7 @@ date: 2015-10-29T13:39:07-07:00
 其实重启我也就忍了，难受的是已经书写东西会随机丢失！！就是说，它不是丢最后书写的笔迹，而是可能前好几分钟写的东西里面，有一块没了。具体表现如下图(红色问号是丢失笔迹的区域)：
 
 <figure>
-  <a href="http://{{ site.url }}/images/surfacebook/12.JPG"><img src="http://{{ site.url }}/images/surfacebook/12.JPG"></a>
+  <a href="{{ site.url }}/images/surfacebook/12.JPG"><img src="{{ site.url }}/images/surfacebook/12.JPG"></a>
   <figcaption>OneNote笔迹丢失</figcaption>
 </figure>
 
@@ -143,7 +142,7 @@ date: 2015-10-29T13:39:07-07:00
 当然了，右键按钮比原来好按多了，估计寿命也会长一点。
 
 <figure>
-  <a href="http://{{ site.url }}/images/surfacebook/10.JPG"><img src="http://{{ site.url }}/images/surfacebook/10.JPG"></a>
+  <a href="{{ site.url }}/images/surfacebook/10.JPG"><img src="{{ site.url }}/images/surfacebook/10.JPG"></a>
   <figcaption>触控笔</figcaption>
 </figure>
 
@@ -173,14 +172,14 @@ date: 2015-10-29T13:39:07-07:00
 截止到2015/10/28, 安装了所有更新下，还是有蓝屏和显卡驱动的bug。第一天使用就出现这样的情况其实挺震惊我的。蓝屏出现了2次，显卡驱动的bug出现了>5次。
 
 <figure>
-  <a href="http://{{ site.url }}/images/surfacebook/6.JPG"><img src="http://{{ site.url }}/images/surfacebook/6.JPG"></a>
+  <a href="{{ site.url }}/images/surfacebook/6.JPG"><img src="{{ site.url }}/images/surfacebook/6.JPG"></a>
   <figcaption>蓝屏</figcaption>
 </figure>
 
 蓝屏原因不详。
 
 <figure>
-  <a href="http://{{ site.url }}/images/surfacebook/7.PNG"><img src="http://{{ site.url }}/images/surfacebook/7.PNG"></a>
+  <a href="{{ site.url }}/images/surfacebook/7.PNG"><img src="{{ site.url }}/images/surfacebook/7.PNG"></a>
   <figcaption>显卡bug</figcaption>
 </figure>
 
@@ -195,26 +194,26 @@ date: 2015-10-29T13:39:07-07:00
 外观的话大家都看过了，贴几个初始设置的图：
 
 <figure>
-  <a href="http://{{ site.url }}/images/surfacebook/2.JPG"><img src="http://{{ site.url }}/images/surfacebook/2.JPG"></a>
+  <a href="{{ site.url }}/images/surfacebook/2.JPG"><img src="{{ site.url }}/images/surfacebook/2.JPG"></a>
   <figcaption>准备拆封</figcaption>
 </figure>
 
 <figure>
-  <a href="http://{{ site.url }}/images/surfacebook/3.JPG"><img src="http://{{ site.url }}/images/surfacebook/3.JPG"></a>
+  <a href="{{ site.url }}/images/surfacebook/3.JPG"><img src="{{ site.url }}/images/surfacebook/3.JPG"></a>
   <figcaption>第一次开机</figcaption>
 </figure>
 
 值得注意的是，有两个USB接口。我的SP3上那一个USB真的不够用，当你有两个移动硬盘或者U盘要互相拷贝的东西的时候就明白了。
 
 <figure>
-  <a href="http://{{ site.url }}/images/surfacebook/4.JPG"><img src="http://{{ site.url }}/images/surfacebook/4.JPG"></a>
+  <a href="{{ site.url }}/images/surfacebook/4.JPG"><img src="{{ site.url }}/images/surfacebook/4.JPG"></a>
   <figcaption>两个USB</figcaption>
 </figure>
 
 厚度的话，不用说了，不能算便携本，是普通笔记本的感觉。用macbook air比较比较直观：
 
 <figure>
-  <a href="http://{{ site.url }}/images/surfacebook/5.JPG"><img src="http://{{ site.url }}/images/surfacebook/5.JPG"></a>
+  <a href="{{ site.url }}/images/surfacebook/5.JPG"><img src="{{ site.url }}/images/surfacebook/5.JPG"></a>
   <figcaption>和Macbook Air比厚度</figcaption>
 </figure>
 
@@ -247,7 +246,7 @@ date: 2015-10-29T13:39:07-07:00
 如果想更进一步设置成和macbook触控板一致的操作，建议关闭自带的“触控板右下角按下为右键”功能。开启“轻拍两下的拖放”功能。其他的自己设置好了。
 
 <figure>
-  <a href="http://{{ site.url }}/images/surfacebook/8.PNG"><img src="http://{{ site.url }}/images/surfacebook/8.PNG"></a>
+  <a href="{{ site.url }}/images/surfacebook/8.PNG"><img src="{{ site.url }}/images/surfacebook/8.PNG"></a>
   <figcaption>触控板设置</figcaption>
 </figure>
 
@@ -260,7 +259,7 @@ date: 2015-10-29T13:39:07-07:00
 结果我的Surface Book居然真的是电量为0！
 
 <figure>
-  <a href="http://{{ site.url }}/images/surfacebook/11.JPG"><img src="http://{{ site.url }}/images/surfacebook/11.JPG"></a>
+  <a href="{{ site.url }}/images/surfacebook/11.JPG"><img src="{{ site.url }}/images/surfacebook/11.JPG"></a>
   <figcaption>触控板设置</figcaption>
 </figure>
 
